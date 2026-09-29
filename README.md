@@ -57,18 +57,7 @@ Compose 在 Linux VPS 上使用宿主网络，以减少部分平台对 Docker NA
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 
-## 上传 GitHub
 
-```bash
-git init
-git add .
-git commit -m 'Initial release'
-git branch -M main
-git remote add origin https://github.com/你的用户名/douyin-media-extractor.git
-git push -u origin main
-```
-
-上传前运行 `git status`，确认其中没有 `cookies.txt`、`.env` 或下载的媒体文件。
 
 ## 安全边界
 
